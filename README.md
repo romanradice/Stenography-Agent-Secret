@@ -1,4 +1,4 @@
-# Agent-Secret-Stenography
+# Stenography Agent Secret
 
 ## Projet
 Outil pour cacher un message secret dans une image
