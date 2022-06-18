@@ -1,7 +1,7 @@
 # Stenography Agent Secret
 
 ## Projet
-Outil pour cacher un message secret dans une image
+Outil pour cacher un message secret dans une image.
 
 ## Méthode
 Chaque pixel est codé par 3 nombres du système RVB.
@@ -11,19 +11,19 @@ Une image de 600 x 416 soit de 249600 pixels peut donc stocker 93600 caractères
 </br>
 </br>
 On peut:
-- Soit chiffrer un message dans une image 
-- Soit déchiffrer le message d'une image
+- Soit chiffrer un message dans une image.
+- Soit déchiffrer le message d'une image.
 
 ## Etapes
 ### Chifrement
-- On convertit le message ascii en binaire
-- On enregistre la longueur du message sur la premiere ligne
-- On change la valeur du dernier bits de chaque couleur des pixels pour les faires correspondres au message en binaire.
+- On convertit le message ASCII en binaire.
+- On enregistre la longueur du message sur la première ligne.
+- On change la valeur du dernier bit de chaque couleur des pixels pour les faires correspondres au message en binaire.
 
 ### Déchiffrement
-- On déchiffre la taille du message sur la premiere ligne
-- On déchiffre chaque bits bits de chaque couleur des pixels
-- On convertit le message binaire en ascii
+- On déchiffre la taille du message sur la première ligne.
+- On déchiffre le message binaire de chaque bit de chaque couleur des pixels.
+- On convertit le message binaire en ASCII.
 
 ## Screenshot
 
